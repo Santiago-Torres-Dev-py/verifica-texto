@@ -1,0 +1,114 @@
+/*Añade un estilo de letra*/
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates|Poppins&display=swap');
+/*Esta modificando la letra*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat Alternates', sans-serif;
+  	font-size: 15px;
+}
+/*Esta modificando y agregando una imagen*/
+body{
+	background: url(../proyectos/img/fondo2.gif);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+/*Es el sombriado que estaa encima de la imagen*/
+.capa {
+	width: 100%;
+	height: auto;
+	background: rgba(0, 0, 0, 0.6);
+}
+/*Modifica el contenedor del textarea color de letrar forma del contenedor etc.*/
+
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.text-areas{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+
+.comparar {
+  width: 100%;
+  display: flex;
+  justify-content:center;
+  gap: 15%;
+  align-items: center;
+  margin-top: 30px;
+}
+
+
+form textarea{
+  margin-top: 50px;
+  background-color: transparent;
+  color: white;
+	border-style: solid;
+	border-width: 5px;
+	border-color: white;
+  resize: none;
+}
+.nombres1{
+	height: 350px;
+	width: 400px;
+	text-align: center;
+}
+.nombres2{
+	height: 350px;
+	width: 400px;
+	text-align: center;
+}
+/*le da estilos al boton con funcion submit y le da estilos al boton con funcion submit*/
+input, button{
+	width: 250px;
+	padding: 15px 20px;
+	margin-right: 0;
+	background-color: #202e45;
+	color: white;
+	font-size: 20px;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+/*esto hace cuando se pasa el mouse al boton con la funcion submit brille sin darle click*/
+input:hover {
+	background-color: cadetblue;
+}
+
+/*esto hace cuando se pasa el mouse al boton con la funcion submit brille sin darle click*/
+button:hover {
+	background-color: cadetblue;
+}
+
+.container-tables {
+	display: flex;
+	justify-content: space-between;
+	color: white;
+}
+td{
+	float: inline-start;
+}
+table{
+	margin-top: 50px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Estilos del pie de pagina*/
+footer {
+	float: inline-end;
+	padding-top: 51px;
+	color: white;
+}
